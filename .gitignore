@@ -1,0 +1,13 @@
+# File used to show that a difference exists between normal GDB session
+# and a TheoreticalCoverage GDB session
+diff.txt
+
+# File used to store the Program Counter of the ThereticalCoverage session
+# so that the normal GDB session can set a temporary breakpoint there and
+# compare registers when it gets there
+pc.txt
+
+# File used to store the registers that will be compared when both sessions
+# are at the same program counter
+reg.txt
+
